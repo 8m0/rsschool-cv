@@ -23,4 +23,5 @@ Hi, my name is Mark, and I am looking forward to work as an Angular Full-Stack d
 	<br>
 
 English level: B2
+
 Czech Language: B1
