@@ -1,0 +1,103 @@
+html, body { 
+	
+}
+
+body { 
+	margin: 0; 
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 100vh; 
+	padding: 0 20rem;
+}
+
+header, main, footer {
+
+}
+
+.head {
+	border-bottom: 1px solid;
+	padding: 1rem 0;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.head h1 {
+	margin: 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.main-text {
+	font-size: 2rem;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.contact_me {
+	display: flex;
+    justify-content: end;
+}
+
+.contact_me ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.contact_me ul li {
+	margin-left: 1rem;
+}
+
+.container {
+	position: relative;
+	padding: 2rem 0;
+}
+
+.container::before {
+	content: "";
+	position: absolute;
+	background: url("images/pent2.png") no-repeat center;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	opacity: 0.01;
+}
+
+.skills_list {
+	padding: 2rem;
+	font-size: 1.5rem;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	font-size: 2rem;
+	background-color: #e8cccc;
+	border-radius: 10px 10px 0 0;
+}
+
+footer .list-group .list-group-item {
+	position: relative;
+}
+
+
+.rs-logo {
+	position: relative;
+}
+
+.rs-logo i:before {
+	content: "";
+	background: url("fonts/rs_school.svg") no-repeat center;
+	position: absolute;
+	height: 38px;
+  	width: 70px;
+  	margin-left: -75px;
+}
